@@ -1,0 +1,251 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-color: black; ur*/
+    background: url("./quora.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.outer-box{
+    width: 50%;
+    height:fit-content;
+    margin: auto auto;
+    border-radius: 4px;
+}
+
+.outer-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container .outer-box .heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .outer-box .heading h1{
+    color: #B92B27;
+    font-size: 60px;
+    font-family:sans-serif
+}
+
+.container .outer-box .heading p{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    color: #636466;
+}
+
+.container .outer-box .form-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 33px;
+    
+}
+
+.container .outer-box .form-content .form-left-content{
+   width: 50%;
+   border-right-style: solid;
+   border-width: 1px;
+   border-color: #dee0e1;
+   padding-right: 20px;
+}
+
+.container .outer-box .form-content .form-left-content button{
+    width: 100%;
+    height: 30px;
+    min-width: 30px;
+    position: relative;
+    border-width: 0px;
+    outline: none;
+    color: inherit;
+    background-color: transparent;
+    padding: 0px 10px;
+    font-weight: 600;
+    color: #6D6466;
+    margin-top: 10px;
+}
+
+.container .outer-box .form-content .form-left-content button:hover{
+    border-radius: 1000px;
+    cursor: pointer;
+    background-color: #F1F2F2;
+    margin-top: 10px;
+}
+
+.container .outer-box .form-content .form-left-content .google,.container .outer-box .form-content .form-left-content .facebook{
+   border-style: solid;
+   border-width: 1px;
+   padding: 8px;
+   margin-top: 10px;
+   border-color: #dee0e1;
+   border-radius: 4px;
+   color: #282829;
+   font: inherit;
+   padding: 8px;
+   display: flex;
+}
+
+.container .outer-box .form-content .form-left-content .google span,.container .outer-box .form-content .form-left-content .facebook span{
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: top;
+}
+
+.container .outer-box .form-content .form-left-content .google div,.container .outer-box .form-content .form-left-content .facebook div{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.container .outer-box .form-content .form-left-content .google:hover{
+   background-color: #F1F2F2;
+   cursor: pointer;
+}
+
+.container .outer-box .form-content .form-left-content .facebook:hover{
+   background-color: #F1F2F2;
+   cursor: pointer;
+}
+
+.container .outer-box .form-content .form-left-content p{
+    color: #939598;
+    font-size: 15px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.container .outer-box .form-content .form-left-content p a{
+    color: #195FAA;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.container .outer-box .form-content .form-left-content p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .outer-box .form-content .form-right-content{
+   width: 47%;
+}
+
+.container .outer-box .form-content .form-right-content span{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #dee0e1;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.container .outer-box .form-content .form-right-content div  .email label,.container .outer-box .form-content .form-right-content div  .password label{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container .outer-box .form-content .form-right-content div  .email,.container .outer-box .form-content .form-right-content div  .password{
+    margin-top: 10px;
+}
+
+.container .outer-box .form-content .form-right-content div  .email div,.container .outer-box .form-content .form-right-content div  .password div{
+    margin-top: 5px;
+}
+
+.container .outer-box .form-content .form-right-content div  .email div input,.container .outer-box .form-content .form-right-content div  .password div input{
+    padding: 8px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #dee0e1;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.container .outer-box .form-content .form-right-content .login{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container .outer-box .form-content .form-right-content .login a{
+    font-size: 14px;
+    padding: 0px;
+    color: inherit;
+    text-align: inherit;
+    color: #939598;
+}
+
+.container .outer-box .form-content .form-right-content .login a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .outer-box .form-content .form-right-content .login input{
+    background: #97B4FF;
+    color: white;
+    padding: 8px;
+    height: 38px;
+    min-width: 38px;
+    font: inherit;
+    padding: 0px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+.footer-content .hindi-marathi{
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+        color: #195FAA;
+        border-top-style: solid;
+        border-width: 1px;
+        border-color: #dee0e1;
+        font-size: 14px;
+}
+
+.footer-content .hindi-marathi a{
+        margin-right: 5px;
+}
+
+.footer-content .hindi-marathi span{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+}
+
+.footer-content .hindi-marathi a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-content .main-footer{
+    background-color: #f1f2f2;
+    text-align: center;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #dee0e1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #7A6466;
+}
+
+.footer-content .main-footer a:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}

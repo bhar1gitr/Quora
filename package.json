@@ -1,0 +1,19 @@
+{
+  "name": "quora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhar1gitr/Quora.git"
+  },
+  "author": "Bharat Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhar1gitr/Quora/issues"
+  },
+  "homepage": "https://github.com/bhar1gitr/Quora#readme"
+}
