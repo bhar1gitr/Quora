@@ -249,3 +249,31 @@
    text-decoration: underline;
    cursor: pointer;
 }
+
+@media (max-width : 900px) {
+    .container{
+        height: 100vh;
+    }
+
+    .outer-box{
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
+@media (max-width : 570px){
+    .form-content{
+        flex-direction: column;
+    }
+
+.container .outer-box .form-content .form-left-content{
+        width: 100%;
+        padding-right: 0px;
+        border-right-style: none;
+    }
+
+    .container .outer-box .form-content .form-right-content{
+        width: 100%;
+    }
+}
